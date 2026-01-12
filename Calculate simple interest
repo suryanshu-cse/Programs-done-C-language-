@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+int p;
+    float r;
+    float t;
+    scanf("%d%f%f",&p,&r,&t);
+   float simple_I=(p*r*t)/100.00;
+    printf("%.2f",simple_I);
+    return 0;
+}
